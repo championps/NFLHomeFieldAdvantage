@@ -32,10 +32,6 @@ ax.set_ylabel('Home Win Percentage (%)')
 # Add extra space at the top so labels fit perfectly
 ax.set_ylim(0, 80)
 
-# Statistical results
-t_nofan, p_nofan = -1.620, 0.1073
-t_limited, p_limited = -0.445, 0.6570
-
 # Clean up layout and save
 plt.tight_layout()
 plt.savefig('test3_jei_graph.png', dpi=300, bbox_inches='tight')

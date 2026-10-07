@@ -29,10 +29,6 @@ ax.set_xticklabels(['No Fans\n(2020)', 'Limited Fans\n(2020)'])
 ax.set_ylabel('Home Win Percentage (%)')
 ax.set_ylim(0, 80)
 
-# Statistical results
-t_nofan, p_nofan = -2.249, 0.0260
-t_limited, p_limited = -0.979, 0.3298
-
 # Clean up layout and save
 plt.tight_layout()
 plt.savefig('test2_jei_graph.png', dpi=300, bbox_inches='tight')
